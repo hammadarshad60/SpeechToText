@@ -1,0 +1,77 @@
+.mainIcon{
+    font-size: 50px;
+    background-color: #C3E3FE;
+    border-radius: 50%;
+    color: #0445C1;
+    padding: 5%;
+}
+.text{
+    font-size: 20px;
+    color: #0445C1;
+    margin: 5%;
+}
+.mainBg{
+    background-color: #EEF5FE;
+    padding: 15px;
+}
+
+.btnMain{
+    background-color: #0445C1;
+    color: white;
+}
+.btnMain2{
+    background-color:#236FFF;
+    color: white;
+}
+.btnMain3{
+    background-color:#C8C8C8;
+    color: black;
+}
+
+.audio-react-recorder canvas{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    margin-top:25px;
+    left: 110px;
+}
+
+.submitContainer{
+    display: flex;
+    flex-direction: row;
+}
+.recordButton{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.controls{
+    background-color: transparent;
+    border: none;
+    color: #0445C1;
+    font-size: 44px;
+    margin-bottom: 5%;
+}
+
+
+.resultContainer{
+    margin:20% 5% 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    width: 400px;
+}
+.ant-upload-wrapper{
+    position: relative;
+    
+}
+.ant-upload-list-item-container{
+    position: absolute;
+    width: 300px;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+}
